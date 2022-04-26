@@ -1,6 +1,6 @@
 ##heritability analyses & confidence intervals in Dutch and Maela cohorts##
 
-##heritability analyses with Limix
+##heritability analyses with limix
 
 #!/usr/bin/python
 import sys
@@ -18,7 +18,7 @@ y = x.astype(int)
 #run and print estimate
 print(estimate(y, 'bernoulli', K, verbose=False))
 
-##confidence intervals with Albi
+##confidence intervals with ALBI
 #generate kinship_eigenvalues file (in R)
 >require(ggmix)
 >kinship_matrix=read.table("kinship_matrix.txt", h=F)
